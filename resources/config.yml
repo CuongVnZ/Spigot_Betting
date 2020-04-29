@@ -1,0 +1,90 @@
+CONFIG_VERSION: 0
+LANGUAGE:
+  GUI_MESSAGE_START_GAME: §cTrò chơi đã diễn ra. Đang quay phần thưởng...
+  GUI_MESSAGE_START_NEW_GAME: §cTrò chơi mới sẽ diễn ra sau %time% giây
+  GUI_MESSAGE_NO_GAME: §cHiện tại không có trò chơi nào đang diễn ra
+  GUI_TITLE: §bBetting Game
+  MESSAGE_ENTER_AMOUNT: §eVui lòng nhập số tiền muốn bet vào thanh chat!
+  MESSAGE_ENTER_AMOUNT_TITLE: §a§lNhập số tiền
+  MESSAGE_BET: §aBạn đã bet số tiền %amount% vào %item%
+  MESSAGE_NOT_ENOUGH: §cBạn không có đủ tiền
+  MESSAGE_WINNER: §b%player% đã giành chiến thắng nhận được %amount%
+  MESSAGE_END: §eTrò chơi kết thúc.
+GAME_SETTINGS:
+  BET_GUI:
+    TITLE: §cBetting Game
+    ROWS: 3
+  TIME_TO_START: 10
+  TIME_ROLL: 15
+  ROLL_SPEED: 0.05
+  BET:
+    MIN: 100
+    MAX: 69000
+  SOUND:
+    ROLLING: UI_BUTTON_CLICK
+    RESULT: ENTITY_FIREWORK_BLAST
+REWARDS:
+  ITEM_EXAMPLE_1:
+    MATERIAL: DIRT
+    META:
+      NAME: §aĐất
+      LORES:
+        - §fline 1
+        - §fline 2
+        - §fClick để bet
+    ROW: 0
+    COL: 1
+    CHANCE: 1.0
+    REWARD_MULTIPLIER: 1.5
+    REWARD_COMMANDS:
+      - say 1 %player%
+      - say 2 %player%
+      - say 3 %player%
+  ITEM_EXAMPLE_2:
+    MATERIAL: STONE
+    META:
+      NAME: §aĐá
+      LORES:
+        - §fline 1
+        - §fline 2
+        - §fClick để bet
+    ROW: 0
+    COL: 2
+    CHANCE: 0.3
+    REWARD_MULTIPLIER: 2
+    REWARD_COMMANDS:
+      - say 1 %player%
+      - say 2 %player%
+      - say 3 %player%
+  ITEM_EXAMPLE_3:
+    MATERIAL: GRASS
+    META:
+      NAME: §aCỏ
+      LORES:
+        - §fline 1
+        - §fline 2
+        - §fClick để bet
+    ROW: 0
+    COL: 3
+    CHANCE: 0.2
+    REWARD_MULTIPLIER: 3
+    REWARD_COMMANDS:
+      - say 1
+      - say 2
+      - say 3
+  ITEM_EXAMPLE_4:
+    MATERIAL: ICE
+    META:
+      NAME: §aBăng
+      LORES:
+        - §fline 1
+        - §fline 2
+        - §fClick để bet
+    ROW: 0
+    COL: 4
+    CHANCE: 0.1
+    REWARD_MULTIPLIER: 4
+    REWARD_COMMANDS:
+      - say 1
+      - say 2
+      - say 3

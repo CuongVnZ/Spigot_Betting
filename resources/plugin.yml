@@ -1,0 +1,6 @@
+name: Betting
+main: net.cuongvnz.business1.BettingPlugin
+version: ${project.version}
+description: Betting Game
+author: CuongVnZ
+depend: [Vault]
